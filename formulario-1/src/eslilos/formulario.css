@@ -1,0 +1,66 @@
+/* Estilos generales para el formulario con clase "formulario-contacto" */
+.formulario-contacto {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Título del formulario */
+  .formulario-contacto h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Etiquetas */
+  .formulario-contacto label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Campos de entrada */
+  .formulario-contacto input[type="text"],
+  .formulario-contacto input[type="email"],
+  .formulario-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Botón de envío */
+  .formulario-contacto button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  .formulario-contacto button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mensaje de confirmación */
+  .formulario-contacto p {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
